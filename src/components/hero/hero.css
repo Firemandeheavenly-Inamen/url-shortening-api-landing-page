@@ -3,7 +3,6 @@
     justify-content: center;
     height: auto;
     width: 100%;
-    border: 1px solid red;
     padding-left: 100px;
 }
 
@@ -14,7 +13,7 @@
 
 .subheading {
     color: hsl(0, 0%, 75%);
-    padding-right: 12rem;
+    padding-right: 10rem;
     line-height: 2;
 }
 
@@ -23,7 +22,11 @@
 }
 
 .main-left {
-    margin-top: 4rem;
+    margin-top: 8rem;
+}
+
+.main-right {
+    margin-top: 3rem;
 }
 
 .getstarted {
