@@ -36,6 +36,12 @@
     height: 4rem;
     width: 11.75rem;
   }
+  #formControl{
+    flex: 1;
+    margin-bottom: unset;
+    margin-right: 1.5rem;
+    text-align: left;   
+  }
 }
 #url {
   box-sizing: inherit;
