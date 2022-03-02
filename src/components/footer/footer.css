@@ -1,0 +1,18 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-size: 18px;
+    color: #fff;
+    font-family: 'Poppins';
+}
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100&display=swap');
+
+
+.wrapper {
+    display: flex;
+    justify-content: space-between;
+    background-color: #232127;;
+    padding: 70px;
+}
+
