@@ -10,6 +10,7 @@ const Form = () => {
           <input type="text" id="url" placeholder="Shorten a link here..." />
         </div>
       </form>
+      <button id="submitButton">Shorten It!</button>
     </div>
     </div>
   );

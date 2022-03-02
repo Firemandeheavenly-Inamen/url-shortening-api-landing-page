@@ -1,52 +1,60 @@
 :root {
-    --text-dark: #34313D;
-    --text-med: #9E9AA8;
-    --text-light: #fff;
-
-    --primary: #2BD0D0;
-    --secondary: #3A3054;
-    --primary-light: #9AE3E3;
-    --secondary-light: #5E4A90;
-
-    --grey: #B6B4BC;
-
-    --background-dark: #232127;
-    --background-med: #EFF1F7;
-    --background-light: #fff;
-
-    --warningRed: #f46262;
-    --warningRed-light: #E28080;
+  --text-light: #fff;
+  --primary: #2bd0d0;
+  --secondary: #3a3054;
+  --background-light: #fff;
+  --warningRed: #f46262;
+  --warningRed-light: #e28080;
 }
 
-*, *::before, *::after {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-    font-family: inherit;
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: inherit;
 }
 
-#formWrap{
-    padding: 1.5rem;
-    background-color: var(--secondary);
-    background-image: url('../../images/bg-shorten-mobile.svg');
-    background-repeat: no-repeat;
-    background-position: top right;
-    border-radius: 10px;
+#formWrap {
+  padding: 1.5rem;
+  background-color: var(--secondary);
+  background-image: url("../../images/bg-shorten-mobile.svg");
+  background-repeat: no-repeat;
+  background-position: top right;
+  border-radius: 10px;
 }
-#url{
-    box-sizing: inherit;
-    width: 100%;
-    padding:  0.375rem 0.5rem 0.375rem 1rem;
-    border-radius: 0.375rem;
-    font-size: 1rem;
-    line-height: 2.25rem;
+@media screen and (min-width: 768px) {
+  #formWrap {
+    background-image: url('../../images/bg-shorten-desktop.svg');
+  }
 }
-#formControl{
-    margin-bottom: 1rem;
+#url {
+  box-sizing: inherit;
+  width: 100%;
+  padding: 0.375rem 0.5rem 0.375rem 1rem;
+  border-radius: 0.375rem;
+  font-size: 1rem;
+  line-height: 2.25rem;
 }
-form{
-    display: block;
+#formControl {
+  margin-bottom: 1rem;
 }
-#formContainer{
-    margin-bottom: 1.5rem;
+form {
+  display: block;
+}
+#formContainer {
+  margin-bottom: 1.5rem;
+}
+#submitButton {
+  width: 100%;
+  padding: 0.625rem 2.5rem;
+  background: var(--primary);
+  border: 0;
+  border-radius: 0.375rem;
+  font-size: 1.125rem;
+  font-weight: 700;
+  line-height: 1.75rem;
+  color: var(--text-light);
+  transition: background-color 300ms ease-in-out;
 }
