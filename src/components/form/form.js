@@ -1,9 +1,13 @@
-import React from 'react'
+import React from "react";
 
 const Form = () => {
   return (
-    <div>form</div>
-  )
-}
+    <input
+      type="text"
+      id="url"
+      placeholder="Shorten a link here..."
+    />
+  );
+};
 
-export default Form
+export default Form;
