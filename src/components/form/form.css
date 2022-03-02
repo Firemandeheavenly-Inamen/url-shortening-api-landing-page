@@ -6,3 +6,9 @@
     font-size: 1rem;
     line-height: 2.25rem;
 }
+#formControl{
+    margin-bottom: 1rem;
+}
+form{
+    display: block;
+}
