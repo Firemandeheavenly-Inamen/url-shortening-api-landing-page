@@ -24,9 +24,17 @@
   background-position: top right;
   border-radius: 10px;
 }
+
 @media screen and (min-width: 768px) {
   #formWrap {
-    background-image: url('../../images/bg-shorten-desktop.svg');
+    background-image: url("../../images/bg-shorten-desktop.svg");
+  }
+  form {
+    display: flex;
+  }
+  #submitButton{
+    height: 4rem;
+    width: 11.75rem;
   }
 }
 #url {
