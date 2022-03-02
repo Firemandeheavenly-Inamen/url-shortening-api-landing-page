@@ -1,31 +1,49 @@
+import whitelogo from ".././images/whitelogo.svg";
+import footer from "../footer/footer.css"
 
 const Footer = () => {
   return (
-    <div>
-       <div>
-        <img src="" alt=""/>
-       </div>
-
-          <div>
-            <h3>Features</h3>
-            <span>Link Shortening</span>
-            <span> Branded Links</span>
-            <span>Analytics</span>
-          </div>
-          <div>
-            <h3> Resources</h3>
-            <span>Blog</span>
-            <span>Developers</span>
-            <span>Support</span>
-          </div>
-          <div>
-            <h3> Company</h3>
-            <span>About</span>
-            <span>Our Team</span>
-            <span>Careers</span>
-            <span>Contact</span>
-          </div>
-    </div>
+    <footer>
+        <div className="wrapper">
+            <div className="logo">
+                <img src={whitelogo} alt=""/>
+            </div>
+            <div className="list">
+                <div className="list-title">
+                    <ul>
+                        <h3>Features</h3>
+                        <li>Link Shortening</li>
+                        <li>Branded Links</li>
+                        <li>Analytics</li>
+                    </ul>
+                </div>
+                <div className="list-title">
+                    <ul>
+                        <h3> Resources</h3>
+                        <li>Blog</li>
+                        <li>Developers</li>
+                        <li>Support</li>
+                    </ul>
+                </div>
+                <div className="list-title">
+                    <ul>
+                        <h3> Company</h3>
+                        <li>About</li>
+                        <li>Our Team</li>
+                        <li>Careers</li>
+                        <li>Contact</li>
+                    </ul>
+                </div>
+            </div>
+            <div className="media">
+                <ul>
+                    <li>Fb</li>
+                    <li>Twitter</li>
+                    <li>Insta</li>
+                </ul>
+            </div>
+        </div>
+    </footer>
   )
 }
 
