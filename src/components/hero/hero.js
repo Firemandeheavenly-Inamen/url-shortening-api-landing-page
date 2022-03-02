@@ -7,12 +7,12 @@ const Hero = () => {
     <main>
         <div className="main-wrapper">
             <div className="main-left">
-                <h1>More than just shorter links</h1>
-                <p>Build your brand's recognition and get detailed insights</p>
-                <button>Get Started</button>
+                <h1 className="title">More than just shorter links</h1>
+                <p className="subheading">Build your brand's recognition and get detailed insights on how your links are performing.</p>
+                <button className="getstarted">Get Started</button>
             </div>
             <div className="main-right">
-                <Illustrator />
+                <Illustrator className="illustrator"/>
             </div>
         </div>
     </main>
