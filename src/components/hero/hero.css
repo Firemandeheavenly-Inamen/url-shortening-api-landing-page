@@ -42,7 +42,7 @@
     opacity: 0.5;
 }
 
-@media (max-width: 800px) {
+@media (max-width: 900px) {
     .main-wrapper {
         flex-direction: column;
     }

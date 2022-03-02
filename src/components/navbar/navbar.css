@@ -4,7 +4,7 @@ header, .nav-list {
 }
 
 header {
-    margin: 20px;
+    margin: 20px 100px;
 }
 
 .logo-wrapper {
@@ -67,7 +67,7 @@ header {
     display: none;
 }
 
-@media (max-width: 800px) {
+@media (max-width: 900px) {
     nav, .login {
         display: none;
     }
