@@ -1,6 +1,7 @@
 import React from 'react';
 import './navbar.css';
 import {ReactComponent as Logo} from '../../images/logo.svg';
+import {BiMenu} from 'react-icons/bi';
 
 const Navbar = () => {
   return (
@@ -23,6 +24,7 @@ const Navbar = () => {
             <button id="login-btn">Login</button>
             <button id="signup-btn">Sign Up</button>
         </div>
+        <BiMenu className="menu"/>
     </header>
   )
 }

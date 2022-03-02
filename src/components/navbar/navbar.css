@@ -61,3 +61,18 @@ header {
 #signup-btn:hover {
     opacity: 0.5;
 }
+
+.menu {
+    font-size: 32px;
+    display: none;
+}
+
+@media (max-width: 800px) {
+    nav, .login {
+        display: none;
+    }
+
+    .menu {
+        display: block;
+    }
+}
