@@ -4,6 +4,7 @@ import {ReactComponent as Logo} from '../../images/logo.svg';
 import {BiMenu} from 'react-icons/bi';
 
 const Navbar = () => {
+
   return (
     <header>
         <div className="nav-list">
@@ -11,7 +12,7 @@ const Navbar = () => {
                 <Logo />
             </div>
     
-            <nav>
+            <nav id="nav-items">
                 <ul>
                     <li>Features</li>
                     <li>Pricing</li>
@@ -24,7 +25,7 @@ const Navbar = () => {
             <button id="login-btn">Login</button>
             <button id="signup-btn">Sign Up</button>
         </div>
-        <BiMenu className="menu"/>
+        <BiMenu id="menu" />
     </header>
   )
 }
