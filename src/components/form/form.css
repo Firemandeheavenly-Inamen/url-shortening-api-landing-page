@@ -1,3 +1,38 @@
+:root {
+    --text-dark: #34313D;
+    --text-med: #9E9AA8;
+    --text-light: #fff;
+
+    --primary: #2BD0D0;
+    --secondary: #3A3054;
+    --primary-light: #9AE3E3;
+    --secondary-light: #5E4A90;
+
+    --grey: #B6B4BC;
+
+    --background-dark: #232127;
+    --background-med: #EFF1F7;
+    --background-light: #fff;
+
+    --warningRed: #f46262;
+    --warningRed-light: #E28080;
+}
+
+*, *::before, *::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: inherit;
+}
+
+#formWrap{
+    padding: 1.5rem;
+    background-color: var(--secondary);
+    background-image: url('../../images/bg-shorten-mobile.svg');
+    background-repeat: no-repeat;
+    background-position: top right;
+    border-radius: 10px;
+}
 #url{
     box-sizing: inherit;
     width: 100%;
@@ -11,4 +46,7 @@
 }
 form{
     display: block;
+}
+#formContainer{
+    margin-bottom: 1.5rem;
 }
