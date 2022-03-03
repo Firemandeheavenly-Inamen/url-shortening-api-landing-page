@@ -24,6 +24,10 @@
   white-space: nowrap;
   clip-path: inset(50%); 
 }
+#shortenWrap{
+  max-width: 1100px;
+  margin: auto;
+}
 #formWrap {
   padding: 1.5rem;
   background-color: var(--secondary);
@@ -49,6 +53,9 @@
     margin-bottom: unset;
     margin-right: 1.5rem;
     text-align: left;   
+  }
+  #url{
+    height: 4rem;
   }
 }
 #url {
