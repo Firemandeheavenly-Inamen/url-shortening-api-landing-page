@@ -68,6 +68,9 @@ header {
 }
 
 @media (max-width: 900px) {
+    header {
+        margin: 20px;
+    }
     nav, .login {
         display: none;
     }
