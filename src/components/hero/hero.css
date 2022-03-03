@@ -9,11 +9,12 @@
 .title {
     font-size: 60px;
     line-height: 70px;
+    color: hsl(260, 8%, 14%);
 }
 
 .subheading {
     color: hsl(0, 0%, 75%);
-    padding-right: 10rem;
+    padding-right: 12rem;
     line-height: 2;
 }
 
