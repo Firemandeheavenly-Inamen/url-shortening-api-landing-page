@@ -16,3 +16,36 @@
     padding: 70px;
 }
 
+
+.list{
+    display: flex;
+    gap: 50px;
+    font-family: 'Poppins';
+}
+.list-title ul{
+    flex-direction: column;
+    list-style: none;
+}
+h3{
+    display: flex;
+}
+.list-title li{
+    color: #BFBFBF;
+}
+.media ul {
+    display: flex;
+    gap: 20px;
+    list-style: none;
+    cursor: pointer;
+}
+.media img:hover, ico{
+    background: #2BD0D0;
+    
+}
+@media (max-width: 950px){
+    .wrapper{
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+  }
