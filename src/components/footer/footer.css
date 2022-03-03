@@ -38,7 +38,7 @@ h3{
     list-style: none;
     cursor: pointer;
 }
-.media img:hover, ico{
+.media img:hover{
     background: #2BD0D0;
     
 }
