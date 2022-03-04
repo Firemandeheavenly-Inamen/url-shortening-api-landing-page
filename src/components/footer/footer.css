@@ -31,12 +31,15 @@ footer {
 .list-title ul{
     flex-direction: column;
     list-style: none;
-}
-h3{
     display: flex;
+}
+ .list h3{
+    display: flex;
+    /* padding: 10px 0; */
 }
 .list-title li{
     color: #BFBFBF;
+    padding: 7px 0;
 }
 .list-title li a{
     color: #BFBFBF;
@@ -70,23 +73,27 @@ h3{
     }
 
 }
-/* @media (max-width: 1024){
+@media (max-width: 1024){
     .wrapper{
         flex-direction: column;
         align-items: center;
         justify-content: center;
-        padding-top: 70px;
-        padding-right: 162px;
-        padding-bottom: 72px;
-        padding-left: 162px;
     }
 
-} */
+}
 @media only screen and (max-width: 600px){
     .list{
         align-items: center;
         justify-content: center;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        line-height: 20px;
     }
+    /* list h3{
+        text-align: center;
+        line-height: 20px;
+    } */
 }
 @media (max-width: 375){
     
