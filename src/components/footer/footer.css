@@ -13,8 +13,6 @@ footer {
     font-family: 'Poppins';
 }
 
-
-
 .wrapper {
     display: flex;
     justify-content: space-between;
@@ -24,7 +22,6 @@ footer {
     padding-bottom: 72px;
     padding-left: 162px;
 }
-
 
 .list{
     display: flex;
@@ -41,6 +38,13 @@ h3{
 .list-title li{
     color: #BFBFBF;
 }
+.list-title li a{
+    color: #BFBFBF
+}
+.list-title li a:hover{
+    color: #2BD0D0;
+}
+
 .media ul {
     display: flex;
     gap: 20px;
