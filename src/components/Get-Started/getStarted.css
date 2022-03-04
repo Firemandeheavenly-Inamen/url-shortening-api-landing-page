@@ -21,6 +21,7 @@ h1{
     font-family: Poppins;
     font-weight: 700;
     color:#fff;
+    font-size: 40px;
 }
 section img{
     position: absolute;
@@ -33,7 +34,7 @@ button{
     border-radius: 28px;
     border: none;
     color: white;
-    padding: 10px 32px;
+    padding: 12px 32px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
