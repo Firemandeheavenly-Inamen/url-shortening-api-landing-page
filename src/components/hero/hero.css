@@ -40,6 +40,7 @@
     word-spacing: 2px;
     cursor: pointer;
     margin-top: 1.8rem;
+    font-size: 18px;
 }
 
 .getstarted:hover {
@@ -71,6 +72,7 @@
         justify-content: center;
         max-width: 100%;
         height: auto;
+        margin-left: 20px;
     }
     .illustrator {
         max-width: 100%;
