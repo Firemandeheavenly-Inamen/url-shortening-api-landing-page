@@ -39,10 +39,12 @@ h3{
     color: #BFBFBF;
 }
 .list-title li a{
-    color: #BFBFBF
+    color: #BFBFBF;
+    text-decoration: none;
 }
 .list-title li a:hover{
     color: #2BD0D0;
+    text-decoration: none;
 }
 
 .media ul {
