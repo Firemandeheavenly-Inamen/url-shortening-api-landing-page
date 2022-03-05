@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { ShortenedFormContainer, ShortenedFormWrapper, ShortenedForm, ShortenedFormControl } from './ShortlyAppElements';
+import { ShortenedFormContainer, ShortenedFormWrapper, ShortenedForm, ShortenedFormControl } from './ShortenedAppElements';
 import {
     HiddenLabel, FormInput, SubmitButton
 } from './Forms';
