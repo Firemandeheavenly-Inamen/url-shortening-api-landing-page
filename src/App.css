@@ -31,3 +31,47 @@ body {
     overflow-x: hidden;
 }
 
+section {
+    overflow-x: hidden;
+}
+
+h1 {
+    font-size: 2.625rem;
+    font-weight: 700;
+    line-height: 3rem;
+    color: var(--text-dark);
+}
+    @media screen and (min-width: 768px) {
+        h1 {
+            font-size: 4rem;
+        line-height: 5rem;
+        }
+    }
+
+    @media screen and (min-width: 1280px) {
+        h1{font-size: 5rem;
+        line-height: 5.625rem;
+        }
+    }
+
+    @media screen and (min-width: 1024px) {
+        h2 {
+        font-size: 2.5rem;
+    }
+}
+
+h2 {
+    font-size: 1.75rem;
+    font-weight: 700;
+    line-height: 3rem;
+}
+    @media screen and (min-width: 1024px) {
+        h2 {
+        font-size: 2.5rem;
+    }
+}
+
+
+ul {
+    list-style-type: none;
+}
