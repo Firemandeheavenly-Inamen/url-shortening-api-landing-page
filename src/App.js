@@ -1,7 +1,7 @@
 import './App.css';
 import Navbar from './components/navbar/navbar';
 import Hero from './components/hero/hero';
-import InfoSection from './components/statistics/statistics';
+import StatsSection from './components/statistics/statistics';
 import ShortenedApp from './components/form/ShortenedApp'
 function App() {
   return (
@@ -9,7 +9,7 @@ function App() {
       <Navbar />
       <Hero />
       <ShortenedApp/>
-      <InfoSection/>
+      <StatsSection/>
     </div>
   );
 }
