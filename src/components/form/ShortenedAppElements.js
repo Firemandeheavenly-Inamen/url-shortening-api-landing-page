@@ -3,7 +3,7 @@ import shortenMobile from '../../images/bg-shorten-mobile.svg';
 import shortenDesktop from '../../images/bg-shorten-desktop.svg';
 import { Form, FormControl } from './Forms';
 
-export const ShortenedAppContainer = styled.section`
+export const ShortenedAppContainer = styled.section `
     position: relative;
     padding: 0 1.5rem 5rem;
     text-align: center;
@@ -33,16 +33,16 @@ export const ShortenedAppContainer = styled.section`
     }
 `;
 
-export const ShortenedWrapper = styled.div`
+export const ShortenedWrapper = styled.div `
     max-width: 1100px;
     margin: auto;
 `;
 
-export const ShortenedFormContainer = styled.div`
+export const ShortenedFormContainer = styled.div `
     margin-bottom: 1.5rem;
 `;
 
-export const ShortenedFormWrapper = styled.div`
+export const ShortenedFormWrapper = styled.div `
     padding: 1.5rem;
     background-color: var(--secondary);
     background-image: url(${shortenMobile});
@@ -55,14 +55,16 @@ export const ShortenedFormWrapper = styled.div`
     }
 `;
 
-export const ShortenedForm = styled(Form)`
+export const ShortenedForm = styled(Form)
+`
 
     @media screen and (min-width: 768px) {
         display: flex;
     }
 `;
 
-export const ShortenedFormControl = styled(FormControl)`
+export const ShortenedFormControl = styled(FormControl)
+`
 
     @media screen and (min-width: 768px) {
         flex: 1;
@@ -72,11 +74,11 @@ export const ShortenedFormControl = styled(FormControl)`
     }
 `;
 
-export const LinkListContainer = styled.ul`
+export const LinkListContainer = styled.ul `
     
 `
 
-export const LinkListItem = styled.li`
+export const LinkListItem = styled.li `
     margin-bottom: 1rem;
     background-color: var(--background-light);
     border-radius: 5px;
@@ -95,7 +97,7 @@ export const LinkListItem = styled.li`
     }
 `
 
-export const LongLinkWrap = styled.div`
+export const LongLinkWrap = styled.div `
     padding: 0.5rem 1rem;
     border-bottom: 1px solid rgb(160 154 168 / 0.25);
 
@@ -107,7 +109,7 @@ export const LongLinkWrap = styled.div`
     }
 `
 
-export const LongLink = styled.p`
+export const LongLink = styled.p `
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
@@ -121,7 +123,7 @@ export const LongLink = styled.p`
     }
 `
 
-export const ShortLinkWrap = styled.div`
+export const ShortLinkWrap = styled.div `
     padding: 0.375rem 1rem 1rem;
 
     @media screen and (min-width: 1024px) {
@@ -134,7 +136,7 @@ export const ShortLinkWrap = styled.div`
     }
 `
 
-export const ShortLink = styled.p`
+export const ShortLink = styled.p `
     margin-bottom: 0.5rem;
     font-size: 1rem;
     line-height: 2.25rem;
@@ -146,7 +148,7 @@ export const ShortLink = styled.p`
         line-height: 2.25rem;
     }
 `
-export const ButtonsContainer = styled.div`
+export const ButtonsContainer = styled.div `
     display: flex;
     justify-content: space-between;
     gap: 0.5rem;
@@ -155,7 +157,7 @@ export const ButtonsContainer = styled.div`
         width: 12rem;
     }
 `
-export const ButtonWrap = styled.div`
+export const ButtonWrap = styled.div `
     width: 5.625rem;
     flex: 1;
 `
