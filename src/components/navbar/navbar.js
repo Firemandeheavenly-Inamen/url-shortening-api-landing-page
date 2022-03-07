@@ -1,33 +1,38 @@
-import React from 'react';
+import React, {useState, useEffect} from 'react';
 import './navbar.css';
 import {ReactComponent as Logo} from '../../images/logo.svg';
-import {BiMenu} from 'react-icons/bi';
 
 const Navbar = () => {
+    const [navOpen, setNavOpen] = useState(false);
+    useEffect(() => {
+        document.querySelector("body").style.overflow = navOpen ? "hidden" : null;
+    }, [navOpen])
 
-  return (
-    <header>
-        <div className="nav-list">
-            <div className="logo-wrapper">
-                <Logo />
+    return (
+        <header className="header">
+            {/* <img src={Logo} alt="logo" className="logo header__logo" /> */}
+            <Logo className="logo header__logo"/>
+            <div className="header__nav-toggle" onClick={() => setNavOpen(!navOpen)}>
+                <div className="header__nav-toggle--line" />
+                <div className="header__nav-toggle--line" />
+                <div className="header__nav-toggle--line" />
             </div>
-    
-            <nav id="nav-items">
-                <ul>
-                    <li>Features</li>
-                    <li>Pricing</li>
-                    <li>Resources</li>
-                </ul>
+            <nav className={navOpen ? "header__navigation active" : "header__navigation"}>
+                <div className="header__nav-list">
+                    <div className="header__nav-start">
+                        <a href="/" className="header__nav-link">Features</a>
+                        <a href="/" className="header__nav-link">Pricing</a>
+                        <a href="/" className="header__nav-link">Resources</a>
+                    </div>
+                    <div className="header__seperator"></div>
+                    <div className="header__nav-end">
+                        <a href="/" className="header__nav-link">Login</a>
+                        <a href="/" className="btn btn--round btn--sm header__btn">Sign Up</a>
+                    </div>
+                </div>
             </nav>
-        </div>
-
-        <div className="login">
-            <button id="login-btn">Login</button>
-            <button id="signup-btn">Sign Up</button>
-        </div>
-        <BiMenu id="menu" />
-    </header>
-  )
+        </header>
+    )
 }
 
 export default Navbar
