@@ -14,7 +14,7 @@ function App() {
       <StatsSection/>
       <GetStarted />
       <Footer />
-    </div>
+      </div>
   );
 }
 
