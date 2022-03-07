@@ -18,6 +18,7 @@ export const ShortenedAppContainer = styled.section `
         right: 0;
         background-color: var(--background-med);
         z-index: -1;
+        margin-top: 1rem;
     }
 
     @media screen and (min-width: 768px) {
@@ -39,11 +40,11 @@ export const ShortenedWrapper = styled.div `
 `;
 
 export const ShortenedFormContainer = styled.div `
-    margin-bottom: 1.5rem;
+    margin-bottom: 2rem;
 `;
 
 export const ShortenedFormWrapper = styled.div `
-    padding: 1.5rem;
+    padding: 4.5rem; // changed
     background-color: var(--secondary);
     background-image: url(${shortenMobile});
     background-repeat: no-repeat;
