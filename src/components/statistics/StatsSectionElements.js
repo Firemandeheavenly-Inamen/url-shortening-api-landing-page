@@ -118,7 +118,7 @@ export const StatsCardHeading = styled.h3 `
 `;
 
 export const StatsCardCopy = styled.p `
-    font-size: 1.6rem;
+    font-size: 1.5rem;
     line-height: 2.4rem;
 `;
 
