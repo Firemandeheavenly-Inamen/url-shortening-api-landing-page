@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 
-export const StatsHeading = styled.h2`
+export const StatsHeading = styled.h2 `
     margin-bottom: 1rem;
     font-size: 1.75rem;
     line-height: 3rem;
@@ -14,20 +14,26 @@ export const StatsHeading = styled.h2`
     }
 `;
 
-export const StatsCopy = styled.p`
+export const StatsCopy = styled.p `
     margin-bottom: 5.75rem;
     font-size: 1rem;
     line-height: 1.75rem;
 
     @media screen and (min-width: 1024px) {
-        max-width: 34rem;
+        max-width: 40rem;
         margin: 0 auto 6.25rem;
-        font-size: 1.125rem;
+        font-size: 1.4rem;
+        line-height: 2rem;
+    }
+    @media screen and (min-width: 280px) {
+        max-width: 40rem;
+        margin: 0 auto 6.25rem;
+        font-size: 1.4rem;
         line-height: 2rem;
     }
 `;
 
-export const StatsCardsContainer = styled.div`
+export const StatsCardsContainer = styled.div `
     position: relative;
     display: flex;
     flex-direction: column;
@@ -42,13 +48,12 @@ export const StatsCardsContainer = styled.div`
         left: 50%;
         transform: translateX(-50%);
         background-color: var(--primary);
-        
     }
 
     @media screen and (min-width: 1024px) {
         flex-direction: row;
-        gap: 1.75rem;
-        height: 22.25rem;
+        gap: 2.5rem;
+        height: 20rem;
 
         &::before {
             width: 100%;
@@ -60,7 +65,7 @@ export const StatsCardsContainer = styled.div`
     }
 `;
 
-export const StatsCardWrap = styled.div`
+export const StatsCardWrap = styled.div `
     position: relative;
     padding: 4.75rem 2rem 2.5rem;
     background-color: var(--background-light);
@@ -70,18 +75,19 @@ export const StatsCardWrap = styled.div`
         height: max-content;
         text-align: left;
 
+
         &:nth-of-type(2) {
-            top: 44px;
+            top: 24px;
         }
 
         &:nth-of-type(3) {
-            top: 88px;
+            top: 48px;
         }
     };
 
 `;
 
-export const StatsIconWrap = styled.div`
+export const StatsIconWrap = styled.div `
     position: absolute;
     top: 0;
     left: 50%;
@@ -100,23 +106,23 @@ export const StatsIconWrap = styled.div`
     };
 `;
 
-export const StatsIcon = styled.img`
+export const StatsIcon = styled.img `
 
 `;
 
-export const StatsCardHeading = styled.h3`
+export const StatsCardHeading = styled.h3 `
     margin-bottom: 0.75rem;
-    font-size: 1.375rem;
+    font-size: 1.875rem;
     line-height: 2rem;
     color: var(--text-dark);
 `;
 
-export const StatsCardCopy = styled.p`
-    font-size: 0.9375rem;
-    line-height: 1.625rem;
+export const StatsCardCopy = styled.p `
+    font-size: 1.6rem;
+    line-height: 2.4rem;
 `;
 
-export const StatsSectionContainer = styled.section`
+export const StatsSectionContainer = styled.section `
     padding: 0 1.5rem 5rem;
     background-color: var(--background-med);
 
@@ -129,7 +135,7 @@ export const StatsSectionContainer = styled.section`
     }
 `;
 
-export const StatsSectionWrapper = styled.div`
+export const StatsSectionWrapper = styled.div `
     max-width: 1100px;
     margin: auto;
     text-align: center;
