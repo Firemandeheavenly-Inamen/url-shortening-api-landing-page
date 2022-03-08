@@ -6,7 +6,7 @@ import Hero from './components/hero/hero';
 import StatsSection from './components/statistics/statistics';
 import ShortenedApp from './components/form/ShortenedApp';
 
-function App() {
+const App = () => {
   return (
     <div className="App">
       <Navbar />
