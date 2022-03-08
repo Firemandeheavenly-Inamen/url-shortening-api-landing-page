@@ -10,7 +10,6 @@ const Navbar = () => {
 
     return (
         <header className="header">
-            {/* <img src={Logo} alt="logo" className="logo header__logo" /> */}
             <Logo className="logo header__logo"/>
             <div className="header__nav-toggle" onClick={() => setNavOpen(!navOpen)}>
                 <div className="header__nav-toggle--line" />

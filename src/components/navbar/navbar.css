@@ -3,27 +3,34 @@
   padding: 0;
   box-sizing: inherit;
 }
+
 html {
   font-size: 62.5%;
 }
+
 body {
   box-sizing: border-box;
 }
+
 body.no-scroll {
   overflow: hidden;
 }
+
 a {
   text-decoration: none;
   color: hsl(0, 0%, 75%);
 }
+
 ::selection {
   background-color: #2acfcf;
   color: #fff;
 }
+
 .main {
   padding: 0 11.4vw 12rem;
   background-color: #eff1f7;
 }
+
 @media only screen and (max-width: 600px) {
   .main {
     padding: 0 6.4vw 8rem;
@@ -37,46 +44,57 @@ a {
   position: relative;
   margin: 30px 0;
 }
+
 .header__nav-toggle, .header__seperator {
   display: none;
 }
+
 .header__navigation {
   margin-left: 4.6rem;
   flex: 1;
 }
+
 .header__nav-list, .header__nav-start, .header__nav-end {
   display: flex;
   align-items: center;
 }
+
 .header__nav-end {
   margin-left: auto;
 }
+
 .header__nav-link {
   font-weight: 700;
   font-size: 1.5rem;
   transition: color 0.5s;
 }
+
 .header__nav-link:hover {
   color: #34313d;
 }
+
 .header__nav-start .header__nav-link:not(:last-child) {
   margin-right: 2.9rem;
 }
+
 @media only screen and (max-width: 900px) {
   .header__nav-start .header__nav-link:not(:last-child) {
     margin-right: 0;
     margin-bottom: 3.2rem;
  }
 }
+
 .header__nav-end .header__nav-link:not(:last-child) {
   margin-right: 3.7rem;
 }
+
 @media only screen and (max-width: 900px) {
   .header__nav-end .header__nav-link:not(:last-child) {
     margin-right: 0;
     margin-bottom: 2.6rem;
  }
 }
+
 @media only screen and (max-width: 900px) {
   .header {
     padding: 0 6.4vw;
@@ -150,47 +168,60 @@ a {
   font-family: inherit;
   border: none;
 }
+
 .btn:hover {
   background-color: #9ae3e3;
 }
+
  .btn--round {
   border-radius: 100px;
 }
+
  .btn--square {
   border-radius: 10px;
 }
+
  .btn--sm {
   padding: 0.9rem 2.4rem;
   font-size: 1.5rem;
 }
+
  .btn--md {
   padding: 0.9rem 3.1rem;
   font-size: 1.5rem;
 }
+
  .btn--lg {
   padding: 1.4rem 4rem;
   font-size: 2rem;
 }
+
  .btn--hg {
   padding: 1.8rem 4rem;
   font-size: 2rem;
 }
+
  .btn__text--copied {
   display: none;
 }
+
  .btn.copied {
   background-color: #3b3054 !important;
 }
+
  .btn--md.copied {
   padding: 0.9rem 2.1rem;
 }
+
  .btn.copied  .btn__text--copy {
   display: none;
 }
+
  .btn.copied  .btn__text--copied {
   display: block;
   animation: slideFromLeft 0.3s;
 }
+
 @media only screen and (max-width: 1150px) {
    .btn.copied  .btn__text--copied {
     animation: slideFromLeftMobile 0.3s;
