@@ -1,4 +1,4 @@
-import whitelogo from "../images/whitelogo.svg";
+import whitelogo from "./images/whitelogo.svg";
 import  "./footer.css";
 import {FaFacebookSquare} from "react-icons/fa";
 import {FaTwitter} from "react-icons/fa";
