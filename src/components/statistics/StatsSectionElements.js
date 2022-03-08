@@ -39,6 +39,7 @@ export const StatsCardsContainer = styled.div `
     flex-direction: column;
     justify-content: space-between;
     gap: 5.75rem;
+    margin-bottom: 7rem;
 
     &::before {
         content: '';
