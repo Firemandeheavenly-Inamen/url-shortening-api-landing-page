@@ -1,4 +1,4 @@
-import getStarted from '../Get-Started/getStarted.css'
+import "./getStarted.css";
 
 const GetStarted = () => {
   return (

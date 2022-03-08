@@ -24,7 +24,7 @@
     z-index: 2;
 }
 #getStartedSection button{
-    background: #9AE3E3;
+    background: #2acfcf;
     border-radius: 28px;
     border: none;
     color: white;
@@ -36,4 +36,8 @@
     margin-bottom: 30px;
     font-family: Poppins;
     font-weight: 700;
+}
+#getStartedSection button:hover {
+    background-color: #9ae3e3;
+    cursor: pointer;
 }
