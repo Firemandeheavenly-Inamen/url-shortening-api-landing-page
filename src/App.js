@@ -4,7 +4,8 @@ import GetStarted from './components/get-started/getStarted';
 import Navbar from './components/navbar/navbar';
 import Hero from './components/hero/hero';
 import StatsSection from './components/statistics/statistics';
-import ShortenedApp from './components/form/ShortenedApp'
+import ShortenedApp from './components/form/ShortenedApp';
+
 function App() {
   return (
     <div className="App">
