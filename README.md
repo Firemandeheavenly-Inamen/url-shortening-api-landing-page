@@ -1,6 +1,6 @@
 # URL Shortening API Landing Page
 
-###  The challenge was to integrate with the [shrtcode API](https://shrtco.de/) to create shortened URLs and display them like in the designs.
+####  The challenge was to integrate with the [shrtcode API](https://shrtco.de/) to create shortened URLs and display them like in the designs.
 
 ![URL Shortening API Landing Page](./screenshot.PNG)
 
@@ -12,7 +12,7 @@
 - Receive an error message when the form is submitted if:
     - The input field is empty
 
-#### Technologies used
+#### Technologies used:
 This project was built using these technologies:
 - JavaScript
 - CSS
@@ -21,3 +21,10 @@ This project was built using these technologies:
 - Git
 - Markdown
 - React
+
+#### How to start the project?
+```sh
+In the Terminal;
+1. install node modules using `npm install`
+2. run `npm start`
+```
