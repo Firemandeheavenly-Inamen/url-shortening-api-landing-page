@@ -3,11 +3,11 @@ import styled from 'styled-components';
 export const Button = styled.button`
     flex: 1;
     width: 100%;
-    padding: 0.5rem;    
+    padding: 0.8rem;    
     background-color: var(--primary);
     border: 0;
     border-radius: 5px;
-    font-size: ${({largeText}) => largeText ? '1.125rem' : '1rem'};
+    font-size: ${({largeText}) => largeText ? '1.525rem' : '1rem'};
     font-weight: 700;
     color: var(--text-light);
     cursor: pointer;

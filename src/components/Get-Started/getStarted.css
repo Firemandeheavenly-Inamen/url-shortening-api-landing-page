@@ -44,4 +44,5 @@
 #getStartedSection button:hover {
     background-color: #9ae3e3;
     cursor: pointer;
+    transition: all 0.6s ease-out;
 }

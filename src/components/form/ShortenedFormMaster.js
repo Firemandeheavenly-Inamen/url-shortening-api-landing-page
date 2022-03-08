@@ -39,7 +39,8 @@ const ShortenedFormMaster = ({ onUrlSubmit }) => {
                     onChange={ e => setUrl(e.target.value)} 
                     isValid={isValid}
                     />
-                    { formError ? <ErrorMessage margin='0.25rem 0 0' fontSize='0.75rem'>{formError}</ErrorMessage> : null }
+                    { formError ? <ErrorMessage margin='0.4rem 0 0' 
+                    fontSize='1.4rem'>{formError}</ErrorMessage> : null }
                 </ShortenedFormControl>
                 <SubmitButton>Shorten It!</SubmitButton>
             </ShortenedForm>

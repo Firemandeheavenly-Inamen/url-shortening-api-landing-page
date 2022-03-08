@@ -118,8 +118,8 @@ export const LongLink = styled.p `
     line-height: 2.25rem;
     color: var(--text-dark);
 
-    @media screen and (min-width: 1024px) {
-        font-size: 1.25rem;
+    @media screen and (min-width: 250px) {
+        font-size: 1.6rem;
         line-height: 2.25rem;
     }
 `
@@ -143,9 +143,9 @@ export const ShortLink = styled.p `
     line-height: 2.25rem;
     color: var(--primary);
 
-    @media screen and (min-width: 1024px) {
+    @media screen and (min-width: 250px) {
         margin-bottom: unset;
-        font-size: 1.25rem;
+        font-size: 1.6rem;
         line-height: 2.25rem;
     }
 `
@@ -153,9 +153,10 @@ export const ButtonsContainer = styled.div `
     display: flex;
     justify-content: space-between;
     gap: 0.5rem;
+    margin-top: 0.7rem;
 
     @media screen and (min-width: 1024px) {
-        width: 12rem;
+        width: 14.5rem;
     }
 `
 export const ButtonWrap = styled.div `
