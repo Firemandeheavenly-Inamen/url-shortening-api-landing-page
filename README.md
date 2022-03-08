@@ -1,5 +1,7 @@
 # URL Shortening API Landing Page
 
+- [Live Project](https://url-shortening-amalitech.netlify.app/)
+
 ####  The challenge was to integrate with the [shrtcode API](https://shrtco.de/) to create shortened URLs and display them like in the designs.
 
 ![URL Shortening API Landing Page](./screenshot.PNG)
@@ -21,10 +23,27 @@ This project was built using these technologies:
 - Git
 - Markdown
 - React
+- Netlify
 
 #### How to start the project?
 ```sh
 In the Terminal;
-1. install node modules using `npm install`
-2. run `npm start`
+1. install node modules using ***npm install***
+2. run ***npm start***
 ```
+
+#### What we learned?
+> ##### David Aboagye
+    - Now, I have some experience with Styled Components.
+
+> ##### Nicholas Brown
+    - I have broadened my knowledge in Git.
+
+> #### Reuben Yawson
+    - Better understanding of CSS styling.
+
+
+#### Future additions
+1. To be able to style the project with a pre-processor
+2. Use another JS framework for the project
+3. Implement Grid for layout
