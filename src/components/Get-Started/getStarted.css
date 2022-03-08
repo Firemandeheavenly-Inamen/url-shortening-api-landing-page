@@ -12,10 +12,14 @@
 }
 #getStartedSection h1{
     padding: 30px 0;
-    font-family: Poppins;
     font-weight: 700;
     color:#fff;
-    font-size: 40px;
+    font-size: 3.5em;
+}
+@media (max-width: 500px) {
+    #getStartedSection h1 {
+        font-size: 2em;
+    }
 }
 #getStartedSection img{
     position: absolute;
