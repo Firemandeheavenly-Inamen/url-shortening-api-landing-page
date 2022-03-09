@@ -57,7 +57,7 @@ export const StatsCardsContainer = styled.div `
         height: 20rem;
 
         &::before {
-            width: 100%;
+            width: 99%;
             height: 0.5rem;
             left: unset;
             top: 40%;
