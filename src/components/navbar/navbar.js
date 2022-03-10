@@ -19,14 +19,14 @@ const Navbar = () => {
             <nav className={navOpen ? "header__navigation active" : "header__navigation"}>
                 <div className="header__nav-list">
                     <div className="header__nav-start">
-                        <a href="/" className="header__nav-link">Features</a>
-                        <a href="/" className="header__nav-link">Pricing</a>
-                        <a href="/" className="header__nav-link">Resources</a>
+                        <a href="/#" className="header__nav-link">Features</a>
+                        <a href="/#" className="header__nav-link">Pricing</a>
+                        <a href="/#" className="header__nav-link">Resources</a>
                     </div>
                     <div className="header__seperator"></div>
                     <div className="header__nav-end">
-                        <a href="/" className="header__nav-link">Login</a>
-                        <a href="/" className="btn btn--round btn--sm header__btn">Sign Up</a>
+                        <a href="/#" className="header__nav-link">Login</a>
+                        <a href="/#" className="btn btn--round btn--sm header__btn">Sign Up</a>
                     </div>
                 </div>
             </nav>

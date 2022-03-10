@@ -18,9 +18,9 @@ const Footer = () => {
                         <div>
                            <h3>Features</h3> 
                         </div>
-                        <li><a href="/">Link Shortening</a></li>
-                        <li><a href="/">Branded Links</a></li>
-                        <li><a href="/">Analytics</a></li>
+                        <li><a href="/#">Link Shortening</a></li>
+                        <li><a href="/#">Branded Links</a></li>
+                        <li><a href="/#">Analytics</a></li>
                     </ul>
                 </div>
                 <div className="list-title">
@@ -28,9 +28,9 @@ const Footer = () => {
                         <div>
                             <h3> Resources</h3>
                         </div>
-                        <li><a href="/">Blog</a></li>
-                        <li><a href="/">Developers</a></li>
-                        <li><a href="/">Support</a></li>
+                        <li><a href="/#">Blog</a></li>
+                        <li><a href="/#">Developers</a></li>
+                        <li><a href="/#">Support</a></li>
                     </ul>
                 </div>
                 <div className="list-title">
@@ -38,10 +38,10 @@ const Footer = () => {
                         <div>
                             <h3> Company</h3>
                         </div>
-                        <li><a href="/">About</a></li>
-                        <li><a href="/">Our Team</a></li>
-                        <li><a href="/">Careers</a></li>
-                        <li><a href="/">Contact</a></li>
+                        <li><a href="/#">About</a></li>
+                        <li><a href="/#">Our Team</a></li>
+                        <li><a href="/#">Careers</a></li>
+                        <li><a href="/#">Contact</a></li>
                     </ul>
                 </div>
             </div>

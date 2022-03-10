@@ -12,7 +12,7 @@ const Hero = () => {
                     Build your brand’s recognition and get detailed insights
                     on how your links are performing.
                 </p>
-                <a href="/" className="btn btn--round btn--lg">Get Started</a>
+                <a href="/#" className="btn btn--round btn--lg">Get Started</a>
             </div>
             <div className="intro__img">
                 <img src={illustration} alt="illustration-working"></img>

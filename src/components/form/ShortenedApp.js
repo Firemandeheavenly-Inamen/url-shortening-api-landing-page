@@ -17,7 +17,7 @@ const ShortenedApp = () => {
       <ShortenedWrapper>
         <ShortenedFormMaster onUrlSubmit={submitUrl} />
         {appError ? (
-          <ErrorMessage margin="1rem auto" fontSize="1rem">
+          <ErrorMessage margin="1rem auto" fontSize="1.2rem">
             {appError}
           </ErrorMessage>
         ) : null}
