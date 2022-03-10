@@ -18,17 +18,18 @@ export const StatsCopy = styled.p `
     margin-bottom: 5.75rem;
     font-size: 1rem;
     line-height: 1.75rem;
+    border: 1px solid red;
 
     @media screen and (min-width: 1024px) {
-        max-width: 40rem;
+        max-width: 42rem;
         margin: 0 auto 6.25rem;
         font-size: 1.4rem;
         line-height: 2rem;
     }
     @media screen and (min-width: 280px) {
-        max-width: 40rem;
+        max-width: 45rem;
         margin: 0 auto 6.25rem;
-        font-size: 1.4rem;
+        font-size: 1.4em;
         line-height: 2rem;
     }
 `;
@@ -71,7 +72,6 @@ export const StatsCardWrap = styled.div `
     padding: 4.75rem 2rem 2.5rem;
     background-color: var(--background-light);
     border-radius: 5px;
-    border: 1px solid red;
 
     @media screen and (min-width: 1024px) {
         height: max-content;
@@ -122,7 +122,6 @@ export const StatsCardHeading = styled.h3 `
 export const StatsCardCopy = styled.p `
     font-size: 1.45em;
     line-height: 2.4rem;
-    border: 1px solid red;
 `;
 
 export const StatsSectionContainer = styled.section `
