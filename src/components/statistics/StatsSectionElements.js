@@ -9,7 +9,7 @@ export const StatsHeading = styled.h2 `
 
     @media screen and (min-width: 1024px) {
         margin-bottom: 1.125rem;
-        font-size: 2.5rem;
+        font-size: 3.5rem;
         line-height: 3rem;
     }
 `;
@@ -71,6 +71,7 @@ export const StatsCardWrap = styled.div `
     padding: 4.75rem 2rem 2.5rem;
     background-color: var(--background-light);
     border-radius: 5px;
+    border: 1px solid red;
 
     @media screen and (min-width: 1024px) {
         height: max-content;
@@ -119,8 +120,9 @@ export const StatsCardHeading = styled.h3 `
 `;
 
 export const StatsCardCopy = styled.p `
-    font-size: 1.5rem;
+    font-size: 1.45em;
     line-height: 2.4rem;
+    border: 1px solid red;
 `;
 
 export const StatsSectionContainer = styled.section `
