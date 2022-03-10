@@ -18,7 +18,6 @@ export const StatsCopy = styled.p `
     margin-bottom: 5.75rem;
     font-size: 1rem;
     line-height: 1.75rem;
-    border: 1px solid red;
 
     @media screen and (min-width: 1024px) {
         max-width: 42rem;
@@ -97,10 +96,11 @@ export const StatsIconWrap = styled.div `
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 5.5rem;
-    width: 5.5rem;
+    height: 6.2rem;
+    width: 6.2rem;
     border-radius: 50%;
     background-color: var(--secondary);
+    padding: 15px;
 
     @media screen and (min-width: 1024px) {
         left: 2rem;
